@@ -15,3 +15,5 @@ function createMultiplier(variable) {
 function multiplier(a,b) {
   return a * b
 }
+function doublerWithBind(b) {}
+function triplerWithBind(b) {}
