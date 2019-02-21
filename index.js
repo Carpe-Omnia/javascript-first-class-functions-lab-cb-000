@@ -8,6 +8,6 @@ function createMultiplier(variable) {
   if (variable === 2) {mult = 2}
   if(variable === 3) {mult = 3}
   return function(base) {
-    return base * variable
+    return base * mult
   }
 }
