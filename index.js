@@ -12,3 +12,6 @@ function createMultiplier(variable) {
     return base * mult2
   }
 }
+function multiplier(a,b) {
+  return a * b
+}
