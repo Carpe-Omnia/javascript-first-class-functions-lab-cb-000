@@ -15,5 +15,5 @@ function createMultiplier(variable) {
 function multiplier(a,b) {
   return a * b
 }
-var doublerWithBind {multiplier.bind(null,2)}
-var triplerWithBind {multiplier.bind(null,3)}
+var doublerWithBind = multiplier.bind(null,2)
+var triplerWithBind = multiplier.bind(null,3)
